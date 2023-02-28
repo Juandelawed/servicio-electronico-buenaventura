@@ -1,6 +1,6 @@
 *{
     margin: 0px;
-    padding: 10px;
+    padding: 0px;
     box-sizing: border-box;
 }
 a{
@@ -12,6 +12,10 @@ body{
 .padre{
     display: flex;
     flex-flow: column nowrap;
+}
+.margen-interno{
+  padding: 0 50px;
+
 
 }
 .header {
@@ -82,29 +86,72 @@ body{
         line-height: 1.6;
        }
 .section{
-    background: #000;
+    background: #f7f7f7;
     display: flex;
 }
    .ariculos{
-    background: #E38B29;
+    background: #f7f7f7;
     flex: 2 1 auto;
     display: flex;
     flex-flow: row wrap;
    }
       .article{
-        background: #F1A661;
         flex: 1 1 40%;
+        color: #444;
+        font-size: 13px;
+        letter-spacing: 1px;
+        margin: 10px 10px 0px;
+        flex: 1 1 45%;
+        background: #ececec;
+
+      }
+      .article img{
+        width: 100%;
+      }
+      h3{
+        color: #000;
+        font-size: 11px;
+        padding: 20px 0;
+        margin-top: -80px;
+      }
+      h2{
+        font-size: 15px;
+        text-transform: uppercase;
+        padding: 0px 0 10px;
+        color: #000;
       }
       .navegacion{
-        background: #F1A661;
         flex: 1 1 100%;
+        color: #444;
+        font-size: 13px;
+        letter-spacing: 1px;
       }
+      .navegacion a{
+        color: #fff;font-size: 11px;
+        text-transform: uppercase;
+        padding: 0 10px;
+        letter-spacing: 2px;
+
+      }
+
     .aside{
-        background: #EA2C62;
-        flex: 1 1 auto;
+        
+      flex: 1 1 160%;
+        margin: 10px 5px 10px 0;
+       
     } 
+    .aside img{
+      
+     width: 100%;
+    }
+    h4{
+      background: #000;
+      color: #fff; 
+      padding: 10px;
+      text-transform: uppercase;
+    }
       .publicidad{
-        background: #FF9A8C;
+       
       }
 .footer{
     background: #000;
