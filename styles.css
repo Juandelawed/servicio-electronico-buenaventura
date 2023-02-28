@@ -108,6 +108,19 @@ body{
       .article img{
         width: 100%;
       }
+      .article a{
+        color: #fff;
+        font-size: 13px;
+        padding: 10px;
+        background: #000;
+        margin: 10px 0;
+        display: inline-block;
+      }
+      .article a:hover{
+        background: #fff;
+        color: #000;
+
+      }
       h3{
         color: #000;
         font-size: 11px;
@@ -122,9 +135,8 @@ body{
       }
       .navegacion{
         flex: 1 1 100%;
-        color: #444;
-        font-size: 13px;
-        letter-spacing: 1px;
+        background: #000;
+        margin: 10px 10px 0px;
       }
       .navegacion a{
         color: #fff;font-size: 11px;
@@ -157,14 +169,31 @@ body{
     background: #000;
     display: flex;
     justify-content: center;
+    margin-top: 10px;
 }
    .pie{
-    background: #FAD5AD;
-    width: 300px;
+    
+    text-align: center;
+   }.pie a{
+    color: #fff;
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 0 10px;
+    letter-spacing: 2px;
    }
-   @media all and (max-width:800px){
+   @media all and (max-width:948px){
     .section{
         flex-direction: column;
+    }
+    .menu{
+      flex-direction: column;
+      height: auto;
+    }
+    h1{
+      font-size: 15px;
+    }
+    .texto-principal{
+      height: 450px;
     }
     @media all and (max-width:600px){
         .ariculos{
